@@ -1,0 +1,69 @@
+*{box-sizing: border-box;}
+.box2{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+.box3{
+    width: 33.33%;
+    float: right;
+    padding: 10px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.encabezado{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: black;
+    color: azure;
+    padding: 30px;
+    }
+body{margin:0 ;}
+
+li{
+   
+    display: inline;
+    padding: 10px;
+    font-size: 1.5em;
+    
+}
+a{ text-decoration: none; color:#fff;}
+a:hover{
+    color:red;
+}
+.bg1{
+    background-image: url("img/woman-ga5d494670_1920.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    margin-top: -50px;
+    background-color: black;
+
+  
+}
+
+.bg2{
+    background-image: url("../img/woman-ga5d494670_1920.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5), url("img/woman-ga5d494670_1920.jpg"));
+}
+
+.bg1>div{
+    color:#fff;
+    font-size: 2em;
+    text-align:center ;
+}
+.imagenes{
+    background-size: 20px;
+    background-repeat: no-repeat;
+    height: 20px;
+
+}
